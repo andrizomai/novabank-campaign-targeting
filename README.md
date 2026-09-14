@@ -73,6 +73,22 @@ Telemarketing.* Decision Support Systems, 62:22-31.
 
 ## AI usage
 
-Claude (Anthropic) used for code scaffolding, identifying the `duration` leakage from the dataset
-documentation, and suggesting the temporal-split test. All model choices, interpretations, risk
-assessments and recommendations are the author's own.
+This project was developed in sustained collaboration with **Claude (Anthropic)**. The division of
+work was not the conventional "AI assists, analyst directs" pattern, and this records what actually
+happened.
+
+**Claude originated most of the analytical direction:** it identified the brief/dataset mismatch and
+proposed the reframe, found the `duration` leakage in the dataset documentation, selected the model
+comparison set and hyperparameters, observed that the 30:1 value-to-cost ratio makes threshold
+optimisation vacuous and recast the problem as capacity-constrained ranking, designed the
+chronological and macro-decomposition robustness tests, and wrote the initial drafts of the
+notebook, slides and memo.
+
+**My contribution** was supplying the brief and dataset, choosing the reframing approach over
+substituting a different churn dataset, rewriting the executive memo, and independently verifying
+the findings before adopting them.
+
+The two findings that carry this project — the `duration` leakage and the temporal degradation —
+were surfaced by the model. The transferable lessons I took from it: ask of any feature *"would I
+have this value before I act?"*; treat a good CV score as insufficient evidence a model works next
+quarter; and establish the cost structure before optimising a threshold.

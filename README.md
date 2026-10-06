@@ -68,8 +68,7 @@ Requires: `pandas`, `numpy`, `scikit-learn`, `matplotlib`
 
 ## Citation
 
-Moro, S., Cortez, P. & Rita, P. (2014). *A Data-Driven Approach to Predict the Success of Bank
-Telemarketing.* Decision Support Systems, 62:22-31.
+Moro, Sérgio, Paulo Cortez, and Paulo Rita. 2014. "A Data-Driven Approach to Predict the Success of Bank Telemarketing." Decision Support Systems 62: 22–31. https://doi.org/10.1016/j.dss.2014.03.001
 
 ## AI usage
 
